@@ -71,9 +71,11 @@
     text-align: center;
     font-size: 15px;
 }
+
 .offcanvas label{
     font-size: 13px;
 }
+
 .conta{
     font-size: 85px;
     justify-content: center;
@@ -200,7 +202,7 @@ h4, h2{
 
 /*cards*/
 .cardbs{
-    box-shadow: 20px 20px 50px -25px;
+    box-shadow: 20px 20px 50px -20px;
 }
 
 /*textos*/
@@ -222,12 +224,6 @@ h4, h2{
     border-radius: 15px;
     text-align: center;
     box-shadow: 20px 20px 50px -25px;
-}
-
-.btn{
-    float:center;
-    width: 8rem;
-    height: 4rem;
 }
 
 /*modal login*/
@@ -282,13 +278,10 @@ h4, h2{
 .cardpct img{
     width: 100%;
     height: 100%;
+    opacity: 0.8;
 }
-
 .card-img-overlay p, h5{
-    display:flex;
-    justify-content: end;
     color: rgb(0, 0, 0);
-    text-align: justify;
     font-weight: bold;
 }
 
@@ -326,7 +319,6 @@ h4, h2{
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    margin: auto;
 }
 
 .cards img{
@@ -335,22 +327,26 @@ h4, h2{
     width: 100%;
 }
 
-/*form pag 3*/
-.formulario label{
-    font-size: 14px;
+.btn-card{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
-.formulario{
-    width: 100%;
+/*form pag 3*/
+.form{
+    margin: 85px 10px 0 10px;
+}
+
+.formulario label{
+    font-size: 14px;
 }
 
 .form-check{
     margin:15px;
 }
-.btn-primary{
-    height: 35px;
-    margin-left: 10px;
-}
+
 
 /*footer*/
 .footer li, .footer p{
