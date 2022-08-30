@@ -392,6 +392,9 @@ h4, h2{
     .cards{
         width: 15rem;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
 }
 @media(max-width: 854px){
