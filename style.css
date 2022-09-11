@@ -19,9 +19,11 @@
     width: 100%;
     opacity: 0.9;
 }
+
 .navbar-brand{
     color: aliceblue;
 }
+
 .navbar-brand:hover, .nav-links:hover, .perfil i:hover, .perfil i:hover{
     color: rgb(0, 0, 0);
     opacity: 0.7px;
@@ -102,7 +104,7 @@
     justify-content: center;
     margin: 7rem auto 2rem auto;
 }
-  
+
 .search {
     background-color: #fff;
     opacity: 0.6;
@@ -118,7 +120,7 @@
     flex-direction: column;
     font-size: 15px;
 }
-  
+
 .nav-label {
     color: #000;
     padding-bottom: 20px;
@@ -128,7 +130,7 @@
     text-align: center;
     justify-content: center;
 }
-  
+
 .barra-nav {
     border:none;
     display: flex;
@@ -173,7 +175,7 @@ button:hover {
 h4, h2{
     text-align: center;
     padding: 20px;
-    margin: 2rem;
+    margin: 3rem auto 3rem auto;
 }
 
 /*cards pgn 1*/
@@ -320,13 +322,11 @@ h4, h2{
     align-items: center;
     justify-content: center;
 }
-
 .cards img{
     border-radius: 5px;
     height: 10rem;
     width: 100%;
 }
-
 .btn-card{
     width: 100%;
     margin: auto;
@@ -338,15 +338,38 @@ h4, h2{
 .form{
     margin: 85px 10px 0 10px;
 }
-
 .formulario label{
     font-size: 14px;
 }
-
 .form-check{
     margin:15px;
 }
 
+/*Cadastro*/
+.cadastre-se{
+    text-decoration: none;
+    color:#faaca8;
+    cursor: pointer;
+}
+.cadastro{
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 50%;
+    margin: 10rem auto;
+    border-radius: 25px;
+    padding: 30px;
+    opacity: 0.7;
+}
+.dados_pessoais, .endereco, .cad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+    opacity:1;
+}
 
 /*footer*/
 .footer li, .footer p{

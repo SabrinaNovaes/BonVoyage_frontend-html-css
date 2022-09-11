@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastre-se</title>
+  </title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <header>
+    <!--NavBar-->
+    <nav class="navbar fixed-top navbar navbar-expand-lg shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <h1>Bon Voyage</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-justify"></i>
+        </button>
+        <!--menu-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <a class="nav-links" aria-current="page" href="./index.html">Home</a>
+          <a class="nav-links" href="./PacotesePromocoes.html">Pacotes e Promoções</a>
+          <a class="nav-links" href="./Fale_Conosco.html">Fale Conosco</a>
+          <a class="nav-links" href="#" type="button" class="btn" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Login</a>
+          <button class="perfil" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"><i class="bi bi-person-circle"></i></button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvtits-title" id="offcanvasRightLabel">Perfil</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <i class="conta bi-person-circle"></i>
+              <p>Minha Conta</p>
+              <div class="info">
+                <label><i class="icons bi-person"></i>Nome</label>
+                <label><i class="icons bi-envelope"></i>Email</label>
+                <label><i class="icons bi-eye-slash"></i>Senha</label>
+                <label><i class="icons bi-bag"></i>Minhas compras</label>
+                <label><i class="icons bi-credit-card-2-back"></i>Informações de Pagamento</label>
+                <label><i class="icons bi-gear"></i>configurações</label>
+                <label><i class="icons bi-x"></i>Sair</label>
+              </div>
+            </div>
+          </div>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <form class="cadastro">
+    <div class="row">
+      <h2>Cadastro</h2>
+      <hr>
+      <h4>Dados Pessoais</h4>
+      <div class="col">
+        <label class="dados_pessoais">Nome</label>
+        <input type="text" class="cad" placeholder="Digite seu nome">
+      </div>
+      <div class="col">
+        <label class="dados_pessoais">Sobrenome</label>
+        <input type="text" class="cad" placeholder="Digite seu sobrenome">
+      </div>
+      <div class="col">
+        <label class="dados_pessoais">CPF</label>
+        <input type="number" class="cad" placeholder="Digite seu cpf">
+      </div>
+      <div class="col">
+        <label class="dados_pessoais">Data de Nascimento</label>
+        <input type="date" class="cad" placeholder="">
+      </div>
+        <div class="col">
+          <label class="dados_pessoais">Email</label>
+          <input type="email" class="cad" placeholder="Digite seu email">
+        </div>
+        <div class="col">
+          <label class="dados_pessoais">Senha</label>
+          <input type="password" class="cad" placeholder="*******">
+        </div>
+        <div class="col">
+          <label class="dados_pessoais">Telefone</label>
+          <input type="tel" class="cad" placeholder="(00)0000-0000">
+        </div>
+          <div class="col">
+          <label class="dados_pessoais">Possui Whatsapp nesse número?</label>
+          <input type="radio" name="whatsapp" value="Sim" class="cad">
+          <label class="dados_pessoais">Sim</label>
+          <input type="radio" name="whatsapp" value="Não" class="cad"> 
+          <label class="dados_pessoais">Não</label>
+          </div>
+    </div>
+    <hr>
+    <h4>Endereço</h4>
+    <div class="row">
+      <div class="col">
+        <label class="endereco">Rua</label>
+        <input type="text" class="cad" placeholder="Digite o nome da Rua">
+      </div>
+      <div class="col">
+        <label class="endereco">Nº</label>
+        <input type="number" class="cad" placeholder="Digite o número">
+      </div>
+      <div class="col">
+        <label class="endereco">Bairro</label>
+        <input type="text" class="cad" placeholder="Digite o bairro">
+      </div>
+      <div class="col">
+        <label class="endereco">Cidade</label>
+        <input type="text" class="cad" placeholder="Digite sua cidade">
+      </div>
+      <div class="col">
+        <label class="endereco">Estado</label>
+        <input type="text" class="cad" placeholder="Digite seu Estado">
+      </div>
+      <div class="col">
+        <label class="endereco">CEP</label>
+        <input type="text" class="cad" placeholder="00000-000">
+      </div>
+    </div>
+  </form>
+  <hr>
+  <!--footer-->
+  <footer>
+    <div class="footer">
+      <div class="row">
+        <div class="col">
+          <ul>
+            <p>Sobre nós</p>
+            <li>Quem somos</li>
+            <li>Contatos</li>
+            <li>Trabalhe Conoso</li>
+          </ul>
+        </div>
+        <div class="col order-1">
+          <ul>
+            <p>Minha conta</p>
+            <li>Minhas viagens</li>
+            <li>Meu perfil</li>
+            <li>Documentos</li>
+          </ul>
+        </div>
+        <div class="col order-1">
+          <ul>
+            <p>Garantias</p>
+            <li>Politica de Privacidade</li>
+            <li>Termos e condições</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <div class="col order-1">
+          <p>Siga-nos nas redes sociais</p>
+          <div class="icons">
+            <i class="icone bi-facebook"></i>
+            <i class="icone bi-instagram"></i>
+            <i class="icone bi-twitter"></i>
+            <i class="icone bi-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--fimfooter-->
+  <!--Login-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <i class="bi bi-envelope"></i>
+            <label for="formGroupExampleInput" class="form-label">Login</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu email">
+          </div>
+          <div class="mb-3">
+            <i class="bi bi-eye-slash"></i>
+            <label for="formGroupExampleInput2" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="*****">
+            <p>Não possui conta? <a class="cadastre-se" href="./cadastro.html">Cadastre-se</a> aqui!</p>
+            <button type="button" class="enviar" data-bs-dismiss="modal">Enviar</button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn"><i class="bi bi-google"> Logar com Google</i></button>
+            <button type="button" class="btn"><i class="bi bi-facebook"> Logar com facebook</i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--fim login-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="JavaScript.js"></script>
+</body>
+
+</html>
