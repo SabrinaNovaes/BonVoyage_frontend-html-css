@@ -1,3 +1,3 @@
 # BonVoyage
 
-https://sabrinanovaes.github.io/BonVoyage/index.html
+https://sabrinanovaes.github.io/BonVoyage_frontend-html-css/cadastro.html
