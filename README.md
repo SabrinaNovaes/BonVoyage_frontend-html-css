@@ -33,5 +33,8 @@ Contém também :
 - Faça as modificações necessárias
 - Realize a Pull Request (PR)
 
+  ### Autor
+  Sabrina Novaes
+
 ## <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> GitPage :
 https://sabrinanovaes.github.io/BonVoyage_frontend-html-css/index.html
